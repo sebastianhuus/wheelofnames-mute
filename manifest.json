@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "Mute Wheel of Names",
+  "version": "1.0",
+
+  "description": "Personal addon. Mutes all tabs matching wheelofnames.com. Needs permission to see all tabs so it can mute it.",
+
+  "icons": 
+  {
+    "128": "icons/icon-128.png"
+  },
+
+  "permissions": ["tabs"],
+
+  "background":
+  {
+    "scripts": ["background.js"]
+  }
+}
+  
